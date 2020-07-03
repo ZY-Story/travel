@@ -1,18 +1,20 @@
 <template>
     <div>
-        <h1>头部</h1>
-        <span>{{msg}}</span>
+        <home-header></home-header>
     </div>
 </template>
 <script>
+import HomeHeader from './header'
 export default {
     data(){
         return {
             msg: 'hello insdzfddex.vue'
         }
+    },
+    components:{
+        HomeHeader
     }
 }
 </script>
-<style scoped>
-
+<style lang='stylus'  scoped>
 </style>>
