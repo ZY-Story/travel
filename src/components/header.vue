@@ -18,7 +18,6 @@
 import '../assets/styles/module.styl'
 export default {
     name:'HomeHeader',
-
 }
 </script>
 <style lang='stylus'  scoped>
